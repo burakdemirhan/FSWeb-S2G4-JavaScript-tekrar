@@ -37,7 +37,13 @@ const sayilar = [
 
 //Örneğin çözümü:
 function KareninAlani(kenaruzunlugu) {
-  return kenaruzunlugu * kenaruzunlugu;
+
+
+ return kenaruzunlugu * kenaruzunlugu
+
+ 
+  
+  
 }
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -50,9 +56,14 @@ function KareninAlani(kenaruzunlugu) {
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
-function CemberinCevresi(/* kodlar buraya */) {
+function CemberinCevresi(yaricap) {
+  return 2 * pi * yaricap
+  
   /* kodlar buraya */
+  
 }
+
+
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -64,8 +75,8 @@ function CemberinCevresi(/* kodlar buraya */) {
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinAlani( yarıçap, pi) {
+  return pi * Math.pow(yarıçap, 2)
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -99,6 +110,8 @@ let ucetambolunenler,
 
 // 3a çözümü
 
+
+
 /* kodlar buraya */
 
 // 3b çözümü:
@@ -123,10 +136,10 @@ let ucetambolunenler,
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
-function sa() {
-  console.log("Kodlar çalışıyor");
-  return "as";
-}
+    function () {
+      console.log("Kodlar çalışıyor");
+      return "as";
+    }
 sa();
 module.exports = {
   sa,
