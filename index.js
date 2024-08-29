@@ -40,11 +40,10 @@ function KareninAlani(kenaruzunlugu) {
 
 
  return kenaruzunlugu * kenaruzunlugu
-
- 
   
   
 }
+console.log(KareninAlani(10))
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -57,11 +56,14 @@ function KareninAlani(kenaruzunlugu) {
 */
 
 function CemberinCevresi(yaricap) {
-  return 2 * pi * yaricap
+  const parca = 2 * pi * yaricap
+  return parca 
+   }
+  console.log(CemberinCevresi(5))
   
-  /* kodlar buraya */
-  
-}
+
+
+
 
 
 
@@ -78,6 +80,7 @@ function CemberinCevresi(yaricap) {
 function CemberinAlani( yarıçap, pi) {
   return pi * Math.pow(yarıçap, 2)
 }
+console.log(CemberinAlani(15))
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
